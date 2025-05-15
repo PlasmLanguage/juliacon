@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{BWW90}
+J.~Backus, J.H. Williams, and E.L. Wimmers.
+An introduction to the programming language {FL}.
+In D.A. Turner, editor, {\em Research Topics in Functional Programming}.
+  Addison-Wesley, Reading, MA, 1990.
+
+\bibitem{IBM:RJ7100}
+John Backus, John~H. Williams, Edward~L. Wimmers, Peter Lucas, and Alexander
+  Aiken.
+{FL LANGUAGE MANUAL. PARTS l AND 2}.
+Technical Report RJ 7100 (67163), IBM Almaden Research Center, 1989.
+
+\bibitem{BEKS14}
+Jeff Bezanson, Alan Edelman, Stefan Karpinski, and Viral~B. Shah.
+Julia: A fresh approach to numerical computing.
+{\em {SIAM} Review}, 59(1):65--98, 2017.
+
+\bibitem{CATTANI1990130}
+C.~Cattani and A.~Paoluzzi.
+Boundary integration over linear polyhedra.
+{\em Computer-Aided Design}, 22(2):130--135, 1990.
+\href{http://dx.doi.org/https://doi.org/10.1016/0010-4485(90)90007-Y}{doi:https://doi.org/10.1016/0010-4485(90)90007-Y}.
+
+\bibitem{DBLP:journals/cad/DiCarloPS14}
+Antonio DiCarlo, Alberto Paoluzzi, and Vadim Shapiro.
+Linear algebraic representation for topological structures.
+{\em Computer-Aided Design}, 46:269--274, 2014.
+\href{http://dx.doi.org/10.1016/j.cad.2013.08.044}{doi:10.1016/j.cad.2013.08.044}.
+
+\bibitem{Paoluzzi2003a}
+A.~Paoluzzi.
+{\em Geometric Programming for Computer Aided Design}.
+John Wiley \ Sons, Chichester, {UK}, 2003.
+
+\bibitem{Plasm:book:2005}
+Alberto Paoluzzi and Giorgio Scorzelli.
+{\em {BIM geometry with Julia Plasm -- Functional language for CAD
+  programming}}.
+Wiley Nature, 2025.
+In print.
+
+\bibitem{TSAS:2020}
+Alberto Paoluzzi, Vadim Shapiro, Antonio DiCarlo, Francesco Furiani, Giulio
+  Martella, and Giorgio Scorzelli.
+Topological computing of arrangements with (co)chains.
+{\em {ACM} Trans. Spatial Algorithms Syst.}, 7(1), October 2020.
+\href{http://dx.doi.org/10.1145/3401988}{doi:10.1145/3401988}.
+
+\bibitem{PAOLUZZI2023103436}
+Alberto Paoluzzi, Vadim Shapiro, Antonio DiCarlo, Giorgio Scorzelli, and Elia
+  Onofri.
+Finite algebras for solid modeling using julias sparse arrays.
+{\em Computer-Aided Design}, 155:103436, 2023.
+\href{http://dx.doi.org/https://doi.org/10.1016/j.cad.2022.103436}{doi:https://doi.org/10.1016/j.cad.2022.103436}.
+
+\bibitem{JUP}
+Bernadette~M. Randles, Irene~V. Pasquetto, Milena~S. Golshan, and Christine~L.
+  Borgman.
+Using the jupyter notebook as a tool for open science: An empirical study.
+In {\em 2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL)}, pages
+  1--2, 2017.
+\href{http://dx.doi.org/10.1109/JCDL.2017.7991618}{doi:10.1109/JCDL.2017.7991618}.
+
+\bibitem{Requicha:80}
+A.A.G. Requicha.
+Representations for rigid solids: Theory, methods and systems.
+{\em ACM Computing Surveys}, 12(4):437--464, December 1980.
+
+\bibitem{mathworks-ply-format}
+{The MathWorks, Inc.}
+The ply format.
+\url{https://de.mathworks.com/help/vision/ug/the-ply-format.html}, 2025.
+Accessed: 2025-05-15.
+
+\bibitem{UP20}
+W.~Usher and V.~Pascucci.
+Interactive visualization of terascale data in the browser: Fact or fiction?
+In {\em IEEE 10th Symposium on Large Data Analysis and Visualization (LDAV)},
+  2020.
+
+\end{thebibliography}

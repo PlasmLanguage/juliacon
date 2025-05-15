@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: juliacon.bst
+Illegal, another \bibstyle command---line 175 of file paper.aux
+ : \bibstyle
+ :          {juliacon}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 176 of file paper.aux
+ : \bibdata
+ :         {ref.bib}
+I'm skipping whatever remains of this command
+Database file #1: ref.bib
+You've used 13 entries,
+            2314 wiz_defined-function locations,
+            619 strings with 6587 characters,
+and the built_in function-call counts, 4477 in all, are:
+= -- 425
+> -- 235
+< -- 2
++ -- 94
+- -- 79
+* -- 317
+:= -- 774
+add.period$ -- 47
+call.type$ -- 13
+change.case$ -- 76
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 169
+empty$ -- 362
+format.name$ -- 79
+if$ -- 938
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 75
+num.names$ -- 28
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 65
+quote$ -- 0
+skip$ -- 102
+stack$ -- 0
+substring$ -- 183
+swap$ -- 20
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 0
+while$ -- 36
+width$ -- 15
+write$ -- 157
+(There were 2 error messages)

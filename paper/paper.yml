@@ -1,0 +1,23 @@
+title: "Julia Plasm Geometry for Solid Modeling"
+keywords:
+  - Julia
+  - Geometry
+  - PLaSM
+  - PyPlasm
+  - Plasm.jl
+  - BIM
+  - CAD
+  - DSL
+authors:
+  - name: Alberto Paoluzzi1
+    orcid: 0000-0003-1361-440X
+    affiliation: 1
+  - name: Giorgio Scorzelli
+    affiliation: 2
+affiliations:
+  - name: Roma Tre University, Rome, Italy
+    index: 1
+  - name: Scientific Computing Institute, University of Utah, USA
+    index: 2
+date: 15 May 2025
+bibliography: ref.bib

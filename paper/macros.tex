@@ -1,0 +1,120 @@
+
+
+\lstset{
+	basicstyle=\ttfamily, 
+	numbers=none, %numberstyle=\tiny
+	mathescape=true
+}
+
+\lstMakeShortInline[language=JuliaLocal,style=julia,mathescape]|
+
+\lstset{basicstyle=\normalsize}
+
+\lstdefinelanguage{JuliaLocal}{
+	language = Julia, % inherit Julia lang. to add keywords
+	morekeywords = [3]{thompson_sampling}, % define more functions
+	morekeywords = [2]{Beta, Distributions}, % define more types and modules
+}
+
+\theoremstyle{plain}
+
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{condition}{Example}[section]
+\newtheorem{coding}{Coding}[section]
+\newtheorem{myexample}{Example}[section]
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+
+\newcommand{\columnsbegin}{\begin{columns}}
+		\newcommand{\columnsend}{\end{columns}}
+
+
+\def\twocolumns#1#2{\begin{columns}
+		\begin{column}{0.5\linewidth}#1\end{column}
+		\begin{column}{0.5\linewidth}#2\end{column}
+	\end{columns}}
+
+\def\mytwocolumns#1#2#3#4{\begin{columns}
+		\begin{column}{#1\linewidth}#2\end{column}
+		\begin{column}{#3\linewidth}#4\end{column}
+	\end{columns}}
+\def\mythreecolumns#1#2#3#4#5#6{\begin{columns}
+		\begin{column}{#1\linewidth}#2\end{column}
+		\begin{column}{#3\linewidth}#4\end{column}
+		\begin{column}{#5\linewidth}#6\end{column}
+	\end{columns}}
+\def\threecolumns#1#2#3{\begin{columns}
+		\begin{column}{0.33\linewidth}#1\end{column}
+		\begin{column}{0.33\linewidth}#2\end{column}
+		\begin{column}{0.33\linewidth}#3\end{column}
+	\end{columns}}
+\def\fourcolumns#1#2#3#4{\begin{columns}%
+		\begin{column}{0.25\linewidth}#1\end{column}%
+		\begin{column}{0.25\linewidth}#2\end{column}%
+		\begin{column}{0.25\linewidth}#3\end{column}%
+		\begin{column}{0.25\linewidth}#4\end{column}%
+	\end{columns}}
+
+% scrgiorgio \alert is not defined
+%\def\textbf#1{\alert{#1}}
+\def\textbf#1{{\bf #1}}
+
+\def\emph#1{{\color{cyan}#1}}
+\def\conv{\mbox{\textrm{conv}\,}}
+\def\aff{\mbox{\textrm{aff}\,}}
+\def\E{\mathbb{E}}
+\def\R{\mathbb{R}}
+\def\Z{\mathbb{Z}}
+\def\N{\mathbb{N}}
+\def\P{\mathbb{P}}
+\def\v#1{{\bf #1}}
+\def\p#1{{\bf #1}}
+\def\T#1{{\bf #1}}
+\def\vet#1{{\left(\begin{array}{cccccccccccccccccccc}#1\end{array}\right)}}
+\def\mat#1{{\left(\begin{array}{cccccccccccccccccccccccccccc}#1\end{array}\right)}}
+\def\vint{\int\!\!\int\!\!\int}
+\def\sint{\int\!\!\int}
+\def\isum{\sum_{i=1}^n}
+\def\asum{\sum_{\alpha=0}^n}
+\def\bsum{\sum_{\beta=0}^m}
+\def\csum{\sum_{\gamma=0}^p}
+\def\sssum{\asum\bsum\csum}
+\def\XXa{\sum_{\tau\in T}  |{\bf a} \times {\bf b}| }
+\def\XXb{\pmatrix{\alpha\cr  h\cr}}
+\def\XXc{\pmatrix{\beta\cr k\cr}}
+\def\XXd{\pmatrix{\gamma\cr m\cr}}
+\def\XXe{\pmatrix{h\cr i\cr}}
+\def\XXf{\pmatrix{k\cr j\cr}}
+\def\XXg{\pmatrix{m\cr l\cr}}
+\def\XXh{\pmatrix{p\!\!+\!\!1\cr h\cr}}
+\def\lin{\mbox{\rm lin}\,}
+\def\aff{\mbox{\rm aff}\,}
+\def\pos{\mbox{\rm pos}\,}
+\def\cone{\mbox{\rm cone}\,}
+\def\conv{\mbox{\rm conv}\,}
+\newcommand{\homog}[0]{\mbox{\rm homog}\,}
+\newcommand{\relint}[0]{\mbox{\rm relint}\,}
+
+\newtheorem{assignment}{Assignment}
+
+\newcommand\myenum[1]{% 
+	\begin{pgfpicture}{-1ex}{-0.65ex}{1ex}{1ex}
+		\usebeamercolor[fg]{item projected}
+		{\pgftransformscale{1.75}\pgftext{\normalsize\pgfuseshading{bigsphere}}}
+		{\pgftransformshift{\pgfpoint{0pt}{0.5pt}}
+			\pgftext{\usebeamerfont*{item projected}#1}}
+	\end{pgfpicture}% 
+}
+
+\definecolor{whitesmoke}{HTML}{F5F5F5}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+% Custom colors
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{whitesmoke}{HTML}{F5F5F5}
+

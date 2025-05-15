@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}FL origin of Plasm.jl package}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}First implementations}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Solid representations and Julia data types}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Plasm representation scheme}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Julia user-defined data types}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Geometric operators}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Affine Transformations}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cellular and simplicial complexes}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Parametric curves, surfaces, and solids}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Minkowsky operators}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Enumerative schemes and geometric combinators}{6}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Visualization \& interaction platforms}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}GLFW-based multi-platform 3D viewer}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Notebook environment execution}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Two-dimensional SVG input}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}PLY format reading and writing}{7}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Arrangements and Boolean Algebra}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Space homology pipeline}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Object generators and atoms}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Boolean solid algebras}{9}{subsection.5.3}%
+\contentsline {section}{\numberline {6}References}{9}{section.6}%
+\contentsline {section}{\numberline {A}Parametric building frame}{10}{appendix.A}%
